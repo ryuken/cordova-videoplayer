@@ -1,0 +1,17 @@
+{
+    "version": "0.0.1",
+    "name": "videoplayer",
+    "cordova_name": "VideoPlayer",
+    "description": "Cordova Video Player Plugin",
+    "license": "Apache 2.0",
+    "repo": "",
+    "issue": "",
+    "keywords": [
+        "cordova",
+        "videoplayer"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": []
+}
