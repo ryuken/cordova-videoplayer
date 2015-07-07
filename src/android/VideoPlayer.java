@@ -29,7 +29,9 @@ public class VideoPlayer extends CordovaPlugin
 		if (action.equals("play"))
 		{
 			Intent intent = new Intent(cordova.getActivity(), VideoPlayerActivity.class);
-			
+			intent.putExtra("url", args.getString(0));
+			intent.putExtra("srt", args.getString(1));
+
 			this.cordova.getActivity().startActivity(intent);
 
 			return true;
